@@ -1,4 +1,169 @@
-*{
-    margin: 0;
-    padding: 0;
+*
+{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif ;
 }
+
+/* =======header section code start=======*/
+
+
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 150px;
+    align-items: center;
+}
+
+
+.Brand-logo-image
+{
+    height: 80px;
+    width: 100%;
+}
+.navigation-bar-links
+{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.navigation-bar-links li a
+{
+    font-size: 1.2em;
+    color:darkgrey;
+}
+#active-link
+{
+    color: black;
+    font-weight: 600;
+}
+.navigation-bar-links li a:hover
+{
+    color: red;
+    transition: .5s;
+}
+.navigation-bar-links li a img
+{
+    height: 20px;
+}
+
+          /* ---Banner section--- */
+
+.banner-section
+{
+    margin: 120px 150px;
+}
+.banner-body
+{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.banner-title
+{
+    font-size: 4rem;
+    span{
+        color: tomato;
+    }
+}
+.banner-Discription
+{
+    margin-top: 20px;
+    font-size: 23px;
+    color: darkgrey;
+}
+.banner-image
+{
+    margin-top: 100px;
+    height: 300px;
+    width: 100%;
+}
+/* =======header section code end=======*/
+
+
+
+
+/* =======plants section code start=======*/
+
+.plants-section
+{
+    margin: 120px 150px;
+}
+.plants-title-discription
+{
+    text-align: center;
+    h2{
+        font-size: 2.8rem;
+        span{
+            color: tomato;
+        }
+    }
+    p{
+        font-size: 23px;
+        color:darkgrey;
+        margin-top: 20px;
+    }
+}
+
+
+.Plant-cards
+{
+    margin-top: 50px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px 20px;
+}
+.card-body
+{
+    width: 300px;
+    margin: auto;
+}
+.card-image
+{
+    height: auto;
+    width: 300px;
+}
+.product-name
+{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 20px 0  10px 0;
+}
+.product-price
+{
+    font-size: 1.8rem;
+    text-align: center;
+    
+}
+.add-card-button
+{
+    padding: 20px;
+    margin-top: 20px;
+    width: 100%;
+    border: none;
+    background-color: tomato;
+}
+
+/* =======plants section code end=======*/
+
+.plants-lover-section
+{
+    mar
+}
+
+
+
+/* =======plants-lover section code start=======*/
+
+
+
+
+
+/* =======plants-lover section code end=======*/
+
+
