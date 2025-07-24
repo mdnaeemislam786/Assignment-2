@@ -129,6 +129,10 @@ main{
   border: none;
   background-color: tomato;
 }
+.add-card-button:hover {
+  background-color: rgb(141, 28, 7);
+  color: white;
+}
 
 /* =======plants section code end=======*/
 
@@ -155,6 +159,7 @@ main{
   height: 280px;
   position: absolute;
   transform: translate(400px, -120px);
+  animation: badge 1s infinite linear;
 }
 .plants-details h1 {
   font-size: 4rem;
@@ -163,6 +168,15 @@ main{
   font-size: 1.3rem;
   margin: 25px;
   color: darkgrey;
+}
+@keyframes badge {
+  0%{
+    transform:translate(400px, -120px) rotate(-20deg);
+  }
+
+  100%{
+    transform:translate(400px, -120px) rotate(-35deg);
+  }
 }
 
 /* =======plants-lover section code end=======*/
@@ -305,6 +319,11 @@ main{
     margin-left: -5px;
     background-color: tomato;
 }
+.Subscribe-button:hover {
+  background-color: rgb(141, 28, 7);
+  color: white;
+}
+
 
 /* =======join-section-section code end=======*/
 

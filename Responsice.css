@@ -344,7 +344,7 @@
   .latest-deals-explaine {
     font-size: 1rem;
   }
-  /* ------------ navigation section ------------- */
+  /* ------------ trusted-plant section ------------- */
   .trusted-plant-lover-badge-section {
     margin: 80px 20px;
   }
@@ -365,7 +365,7 @@
       font-size: 1.8rem;
     }
   }
-  /* ------------ navigation section ------------- */
+  /* ------------ join section ------------- */
 
   .join-section {
     height: 300px;
@@ -413,7 +413,7 @@
     margin: 30px 0;
     width: 80px;
   }
-  
+
   .footer-nav-links li,
   a {
     font-size: 1.3rem;
@@ -437,6 +437,115 @@
 }
 
 /* Small Laptop (769px - 1024px) */
-@media (min-width: 769px) and (max-width: 1550px) {
-  
+@media (min-width: 769px) and (max-width: 1549px) {
+  /* ------------ navigation section ------------- */
+  nav {
+    margin: 30px 100px;
+  }
+  .Brand-logo-image {
+    height: 70px;
+    width: 100%;
+  }
+  .navigation-bar-links,
+  a {
+    gap: 20px;
+    margin: 0;
+  }
+
+  /* ------------ Banner section ------------- */
+  .banner-section {
+    margin: 100px 100px;
+  }
+  .banner-title {
+    font-size: 3rem;
+  }
+  .banner-Discription {
+    font-size: 20px;
+  }
+  /* ------------ plants section ------------- */
+  .plants-section {
+    margin: 130px 100px;
+  }
+  .plants-title-discription {
+    h2 {
+      font-size: 2.5rem;
+    }
+    p {
+      font-size: 20px;
+    }
+  }
+  .product-name {
+    font-size: 1.3rem;
+  }
+  .product-price {
+    font-size: 1.5rem;
+  }
+  /* ------------ plants-lover section ------------- */
+
+  .plants-lover-section {
+    margin: 120px 100px 100px 100px;
+  }
+  .plants-lover-banner {
+    flex-direction: column-reverse;
+  }
+  .plants-lover-container {
+    margin-top: 60px;
+  }
+  .plants-lover-badge {
+    height: 280px;
+    position: absolute;
+    transform: translate(380px, -100px);
+  }
+  .plants-details h1 {
+    font-size: 4rem;
+    text-align: center;
+  }
+  /* ------------ latest-deals section ------------- */
+
+  .latest-deals-section {
+    margin: 0 100px;
+  }
+  /* ------------ trusted-plant section ------------- */
+  .trusted-plant-lover-badge-section {
+    margin: 120px 50px;
+  }
+  /* ------------ join section ------------- */
+  .join-section {
+    height: 400px;
+  }
+  .join-section div {
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+  }
+  .join-title {
+    font-size: 3rem;
+  }
+  .email-input {
+    width: 40%;
+    border: none;
+    margin: 20px 0;
+    font-size: 1rem;
+    padding-left: 0 4%;
+  }
+  .Subscribe-button {
+    height: 50px;
+    width: 20%;
+    border: none;
+    margin: 20px 0;
+  }
+  /* ------------ footer section ------------- */
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 50px;
+  }
+  .footer-social-links {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+  }
 }

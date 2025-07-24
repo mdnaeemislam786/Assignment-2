@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Assignment-2</title>
     <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="./Responsice.css">
+    <link rel="stylesheet" href="./Responsice.css" />
   </head>
   <body>
     <header>
@@ -144,9 +144,10 @@
               alt=""
               class="planrs-lover-img"
             />
-            <img src="./assets/trusted-badge.png"
+            <img
+              src="./assets/trusted-badge.png"
               alt=""
-              class="plants-lover-badge badge-image "
+              class="plants-lover-badge badge-image"
             />
           </div>
           <div class="plants-details">
@@ -259,5 +260,12 @@
         </ul>
       </div>
     </footer>
+    <script>
+      document.querySelectorAll(".add-card-button").forEach(function (button) {
+        button.onclick = function () {
+          alert("Product has been added to your cart!");
+        };
+      });
+    </script>
   </body>
 </html>
