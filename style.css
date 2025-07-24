@@ -105,12 +105,12 @@ main{
   gap: 30px 20px;
 }
 .card-body {
-  width: 300px;
+  width: 100%;
   margin: auto;
 }
 .card-image {
   height: auto;
-  width: 300px;
+  width: 100%;
 }
 .product-name {
   text-align: center;
