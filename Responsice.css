@@ -1,0 +1,254 @@
+/* Mobile (0 - 480px) */
+@media (max-width: 480px) {
+  header {
+    max-width: 480px;
+  }
+  /* ----------nav bar ------------- */
+  nav {
+    margin: 10px 10px;
+    justify-content: space-between;
+  }
+  .Brand-logo-image {
+    height: 40px;
+    width: 100%;
+  }
+  .navigation-bar-links li {
+    display: none;
+  }
+  .navigation-bar-links .cart-link {
+    display: flex;
+    width: auto;
+    margin: 0;
+    a {
+      display: flex;
+      margin: 0;
+    }
+  }
+  /* ----------banner section ------------- */
+
+  .banner-section {
+    margin: 30px 10px;
+  }
+  .banner-body {
+    flex-direction: column-reverse;
+    align-items: start;
+  }
+  .banner-title {
+    font-size: 2rem;
+    margin-top: 30px;
+  }
+  .banner-Discription {
+    font-size: 13px;
+  }
+  .banner-body div {
+    justify-content: right;
+    width: 100%;
+  }
+  .banner-image {
+    margin-top: 40px;
+    height: 230px;
+    width: 100%;
+  }
+
+  /* ----------plants section ------------- */
+  main {
+    max-width: 480px;
+  }
+  .plants-section {
+    margin: 10px;
+    margin-top: 120px;
+  }
+  .plants-title-discription {
+    text-align: center;
+    h2 {
+      font-size: 1.8rem;
+    }
+    p {
+      font-size: 13px;
+      margin-top: 20px;
+    }
+  }
+
+  .Plant-cards {
+    margin-top: 50px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px 20px;
+  }
+  .card-body {
+    width: calc(100% - 0px);
+    margin: 0;
+  }
+  .card-image {
+    height: auto;
+    width: 100%;
+  }
+  .product-name {
+    font-size: 1.4rem;
+  }
+  .product-price {
+    font-size: 1.6rem;
+  }
+  .add-card-button {
+    font-size: 1rem;
+  }
+
+  /* ----------plants-lover section ------------- */
+
+  .plants-lover-section {
+    margin: 10px 10px;
+  }
+  .plants-lover-banner {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .badge-image {
+    display: none;
+  }
+  .plants-lover-container {
+    flex-direction: column;
+  }
+  .planrs-lover-img {
+    margin-top: 40px;
+    height: 500px;
+    width: 100%;
+  }
+  .plants-details h1 {
+    font-size: 2rem;
+    margin-top: 30px;
+    br {
+      display: none;
+    }
+  }
+  .plants-details ul li {
+    font-size: 1rem;
+    margin: 22px;
+  }
+
+  /* ----------latest-deals section ------------- */
+  .latest-deals-section {
+    margin: 10px;
+    margin-top: 150px;
+  }
+  .latest-deals-title {
+    font-size: 2rem;
+    br {
+      display: none;
+    }
+  }
+  .latest-deals-explaine {
+    font-size: 1rem;
+    margin-top: 18px;
+  }
+
+  /* ----------banner section ------------- */
+
+  .trusted-plant-lover-badge-section {
+    margin: 60px 10px;
+  }
+  .plants-shop-contailer {
+    flex-direction: column;
+  }
+  .double-box-container {
+    width: 100%;
+  }
+  .badge-box {
+    height: 220px;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 0;
+    h2 {
+      font-size: 1.8rem;
+      color: white;
+    }
+    a {
+      font-size: 1.5rem;
+      color: white;
+      margin-top: 20px;
+      text-decoration: underline;
+    }
+  }
+
+  .common-box-style,
+  .badge-box {
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    filter: brightness(0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  /* ----------join section ------------- */
+
+  .join-section {
+    width: 100%;
+    height: 300px;
+  }
+  .join-section div {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+  .join-title {
+    font-size: 1.5rem;
+  }
+  .email-input {
+    height: 50px;
+    width: 45%;
+  }
+  .Subscribe-button {
+    height: 50px;
+    width: 35%;
+  }
+
+  /* ----------footer section ------------- */
+
+  footer {
+    max-width: 480px;
+  }
+  .footer-container {
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+  }
+  .site-logo-info {
+    margin: 0 20px;
+    margin-top: 40px;
+  }
+  .footer-nav-links li,
+  a {
+    margin: 30px 0px;
+  }
+  .footer-features-links li,
+  a {
+    margin: 30px 0px;
+  }
+  .footer-links{
+    margin-left: 20px;
+  }
+  .footer-social-links {
+    list-style: none;
+    display: flex;
+    margin-top: 30px;
+  }
+  .footer-social-links li {
+    width: 60px;
+    height: 50px;
+  }
+}
+
+/* Tablet (481px - 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+}
+
+/* Small Laptop (769px - 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+}
+
+/* Desktop (1025px and up) */
+@media (min-width: 1025px) {
+}

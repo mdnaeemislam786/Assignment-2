@@ -254,7 +254,7 @@ main{
   background-repeat:no-repeat;
   background-size: cover;
   border-radius: 30px;
-  filter: brightness(0.7);
+  filter: brightness(0.8);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -266,7 +266,7 @@ main{
 /* =======trusted-plant-section code end=======*/
 
 
-/* =======join-sectionsection code start=======*/
+/* =======join-section code start=======*/
 
 .join-section
 {
